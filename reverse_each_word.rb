@@ -5,4 +5,5 @@ word.reverse()
 
 end
 #result
+sentence
 end
