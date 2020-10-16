@@ -4,5 +4,5 @@ result = []
 word.reverse()
 result.unshift(word)
 end
-result.to_s
+result
 end
