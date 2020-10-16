@@ -1,8 +1,8 @@
 def reverse_each_word (sentence)
 result = []
 %w(sentence).collect do |word|
-result<<word.reverse()
-
+word.reverse()
+result<< word
 end
 result
 #sentence
