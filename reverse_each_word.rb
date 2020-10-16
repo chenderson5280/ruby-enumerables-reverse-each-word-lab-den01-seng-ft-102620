@@ -6,5 +6,5 @@ result << word.reverse()
 #result.concat(word.reverse())
 result.join(" ")
 end
-result
+result.split
 end
