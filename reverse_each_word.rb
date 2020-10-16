@@ -6,6 +6,6 @@ sentence.split.collect do |word|
 result.concat(word.reverse())
 
 end
+result.join(" ")
 result
-
 end
