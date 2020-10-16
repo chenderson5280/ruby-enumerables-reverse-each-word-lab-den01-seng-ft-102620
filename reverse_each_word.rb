@@ -1,10 +1,11 @@
 
 def reverse_each_word (sentence)
 #result = []
+result = ""
 sentence.split(/, /).collect do |word|
-word.reverse()
+result.concat(word.reverse())
 #result.push(word.reverse())
 end
-#result
-sentence
+result
+
 end
