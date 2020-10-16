@@ -4,7 +4,7 @@ result = []
 sentence.split.collect do |word|
 result << word.reverse()
 #result.concat(word.reverse())
-result.join(" ")
+result.join("")
 end
 result
 end
