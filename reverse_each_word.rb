@@ -1,6 +1,6 @@
 
 def reverse_each_word (sentence)
-result = ""
+result = []
 %w(sentence).collect do |word|
 
 result.push(word.reverse())
