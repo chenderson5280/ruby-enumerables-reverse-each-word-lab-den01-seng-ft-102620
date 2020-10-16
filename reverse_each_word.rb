@@ -1,3 +1,5 @@
+require 'pry'
+
 def reverse_each_word (sentence)
 result = []
 %w(sentence).collect do |word|
@@ -7,3 +9,4 @@ end
 result
 #sentence
 end
+binding.pry
