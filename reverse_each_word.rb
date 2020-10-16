@@ -5,6 +5,5 @@ result = []
 
 result.push(word.reverse())
 end
-result.to_s
-#sentence
+result
 end
